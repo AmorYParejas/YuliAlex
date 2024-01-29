@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@300;400&family=Lora:ital,wght@0,400;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    width: 96%;
+    max-width: 1000px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    object-fit: cover;
+    background: none;
+}
+
+#iconoGrande{
+    width: 250px;
+}
+
+h1{
+    font-size: 1em;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1{
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+section{
+    margin: 5px;
+}
+
+/*Estilos de la primera seccion*/
+#primeraSeccion{
+    display: flex;
+}
+
+#imgEnc{
+    width: 34%;
+}
+
+#encabezado{
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+#txtDeLaNada{
+    font-family: 'Courgette', cursive;
+    font-size: 1.28em;
+}
+
+#txtAventuras{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+#encabezado div{
+    width: 100%;
+    text-align: center;
+}
+
+#encabezado button{
+    padding: 8px 16px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+
+}
+
+#btnReproducir{
+    background-color: red;
+}
+
+button img{
+    width: 10px;
+    margin-right: 5px;
+}
+
+/*Estilos de la segunda y tercera seccion*/
+.sliders{
+    margin: 10px;
+}
+
+h3{
+    font-size: 2em;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.slider{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    gap: 12px;
+}
+
+.imgSlider{
+    width: 165px;
+    height: 205px;
+}
+
+/*Modal*/
+.modal{
+    position: fixed;
+    z-index: 210;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #171717a3;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .6s;
+}
+
+#cont-modal{
+    width: 90%;
+    background-color: rgb(213, 228, 241);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#cont-modal img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#cont-modal div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+
+#cont-modal div span{
+    font-size: 2.3rem;
+    margin-top: 12px;
+}
+
+#cont-modal div p{
+    text-align: justify;
+    margin: 25px 18px;
+}
+
+.show-modal{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+}
+
+#close-modal{
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    transition: all 1s;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.1em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+footer span{
+    font-size: 1.28em;
+}
+
+#nombres{
+    font-family: 'Courgette', cursive;
+}

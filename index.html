@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix - Nuestros mejores momentos juntos</title>
+</head>
+<body>
+    <header>
+        <img src="img/netflix.png" alt="img" id="iconoGrande">
+        <h1>Los mejores momentos</h1>
+    </header>
+    <main>
+        <section id="primeraSeccion">
+            <article id="encabezado">
+                <span id="txtDeLaNada">De la nada se vuelve todo</span>
+                <span id="txtAventuras">Las mejores aventuras juntos</span>
+                <div>
+                    <button type="button" id="btnReproducir"> <img src="img/reproduccion.png" alt="img"> Reproducir</button>
+                    <button type="button"> <img src="img/mas.png" alt="img"> Mi lista</button>
+                    <audio controls>
+                        <source src="mp3/Audio1.ogg" type="audio/mp3">
+                            Tu navegador no soporta audio HTML5.
+                    </audio>
+                    <audio controls>
+                        <source src="mp3/Audio2.ogg" type="audio/mp3">
+                            Tu navegador no soporta audio HTML5.
+                    </audio>
+                </div>
+            </article>
+            <img src="img/Amor.jpeg" alt="img" id="imgEnc">
+        </section>
+        <section class="sliders">
+            <h3>Mi lista</h3>           
+            <div class="slider">
+                <img src="img/Amor.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(1)">
+                <img src="img/Amor2.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(2)">
+                <img src="img/Amor3.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(3)">
+                <img src="img/Amor4.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(4)">
+                <img src="img/Amor5.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(5)">
+                <img src="img/Amor6.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(6)">
+            </div>
+        </section>
+        <section class="sliders">
+            <h3>Tendencias</h3>
+            <div class="slider">
+                <img src="img/Amor7.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(7)">
+                <img src="img/Amor8.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(8)">
+                <img src="img/Amor9.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(9)">
+                <img src="img/Amor10.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(10)">
+                <img src="img/Amor11.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(11)">
+                <img src="img/Amor.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(12)">
+            </div>
+        </section>
+        <section class="modal">
+            <article id="cont-modal">
+                <img src="" alt="img" id="imgArt">
+                <div>
+                    <span id="titleArt"></span>
+                    <p id="textArt"></p>
+                    <button type="button" id="close-modal" onclick="cerrar()">Ver otra historia</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+       <!--<span id="nombres">Fátima y Gabriel</span>-->
+        <span>2 de Febrero</span>
+    </footer>
+  <!-- <script src="script.js"></script>-->
+</body>
+</html>
