@@ -1,16 +1,16 @@
 const arregloHistorias = [
-    {id: 1, titulo: "historia 1", img: "img/Amor.png", descripcion: "Nuestra Gran Historia."},
-    {id: 2, titulo: "historia 2", img: "img/Amor2.png", descripcion: "Nuestra Gran Historia."},
-    {id: 3, titulo: "historia 3", img: "img/Amor3.png", descripcion: "Nuestra Gran Historia."},
-    {id: 4, titulo: "historia 4", img: "img/Amor4.png", descripcion: "Nuestra Gran Historia."},
-    {id: 5, titulo: "historia 5", img: "img/Amor5.png", descripcion: "Nuestra Gran Historia."},
-    {id: 6, titulo: "historia 6", img: "img/Amor6.png", descripcion: "Nuestra Gran Historia."},
-    {id: 7, titulo: "historia 7", img: "img/Amor7.png", descripcion: "Nuestra Gran Historia."},
-    {id: 8, titulo: "historia 8", img: "img/Amor8.png", descripcion: "Nuestra Gran Historia."},
-    {id: 9, titulo: "historia 9", img: "img/Amor9.png", descripcion: "Nuestra Gran Historia."},
-    {id: 10, titulo: "historia 10", img: "img/Amor10.png", descripcion: "Nuestra Gran Historia."},
-    {id: 11, titulo: "historia 11", img: "img/Amo11.png", descripcion: "Nuestra Gran Historia."},
-    {id: 12, titulo: "historia 12", img: "img/Amor12.png", descripcion: "Nuestra Gran Historia."}
+    {id: 1, titulo: "", img: "img/Amor.jpeg", descripcion: ""},
+    {id: 2, titulo: "", img: "img/Amor2.jpeg", descripcion: ""},
+    {id: 3, titulo: "", img: "img/Amor3.jpeg", descripcion: ""},
+    {id: 4, titulo: "", img: "img/Amor4.jpeg", descripcion: ""},
+    {id: 5, titulo: "", img: "img/Amor5.jpeg", descripcion: ""},
+    {id: 6, titulo: "", img: "img/Amor6.jpeg", descripcion: ""},
+    {id: 7, titulo: "", img: "img/Amor7.jpeg", descripcion: ""},
+    {id: 8, titulo: "", img: "img/Amor8.jpeg", descripcion: ""},
+    {id: 9, titulo: "", img: "img/Amor9.jpeg", descripcion: ""},
+    {id: 10, titulo: "", img: "img/Amor10.jpeg", descripcion: ""},
+    {id: 11, titulo: "", img: "img/Amor11.jpeg", descripcion: ""},
+    {id: 12, titulo: "", img: "img/Amor12.jpeg", descripcion: ""}
 ]
 
 function cambiarImg(numImg){

@@ -29,8 +29,9 @@ main{
 }
 
 img{
-    object-fit: cover;
+    object-fit:cover;
     background: none;
+   
 }
 
 #iconoGrande{
@@ -76,12 +77,17 @@ section{
 
 #txtDeLaNada{
     font-family: 'Courgette', cursive;
-    font-size: 1.28em;
+    font-size: 1em;
+    margin: 5px 12px;
+    text-align: justify;
 }
 
 #txtAventuras{
     font-family: 'Lora', serif;
     font-style: italic;
+    font-size: 0.8em;
+    margin: 5px 12px;
+    text-align: justify;
 }
 
 #encabezado div{
@@ -97,9 +103,13 @@ section{
 
 }
 
-#btnReproducir{
-    background-color: red;
+audio{
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 10px;
 }
+
+
 
 button img{
     width: 10px;
@@ -123,12 +133,14 @@ h3{
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
-    gap: 12px;
+    gap: 18px;
 }
 
 .imgSlider{
-    width: 165px;
+    width: 185px;
     height: 205px;
+    border-radius: 6px;
+    box-shadow: 5px 1px 5px 1px rgba(255, 229, 229, 0.084);
 }
 
 /*Modal*/
@@ -157,8 +169,11 @@ h3{
 
 #cont-modal img{
     width: 100%;
+    height: 50vh;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    object-fit:contain;
+    background-color: black;
 }
 
 #cont-modal div{
@@ -173,11 +188,13 @@ h3{
 #cont-modal div span{
     font-size: 2.3rem;
     margin-top: 12px;
+    display: none;
 }
 
 #cont-modal div p{
     text-align: justify;
     margin: 25px 18px;
+    display: none;
 }
 
 .show-modal{
@@ -189,11 +206,11 @@ h3{
 #close-modal{
     border: none;
     width: 100%;
-    padding: 8px 0;
+    padding: 26px;
     transition: all 1s;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1.8em;
     background-color: red;
     color: white;
     font-weight: bold;

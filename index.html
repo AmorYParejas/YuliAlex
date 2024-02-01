@@ -15,17 +15,12 @@
     <main>
         <section id="primeraSeccion">
             <article id="encabezado">
-                <span id="txtDeLaNada">De la nada se vuelve todo</span>
-                <span id="txtAventuras">Las mejores aventuras juntos</span>
+                <span id="txtDeLaNada">♡ A veces solo necesito un abrazo bien fuerte que me diga que "todo está bien", una mirada de "no te preocupes" y un beso de "nunca me iré".   </span>
+                <span id="txtAventuras">♡ Espero que sigamos siendo jóvenes juntos con nuestras locuras, hasta finalmente morir de viejos, siempre juntos.</span>
                 <div>
-                    <button type="button" id="btnReproducir"> <img src="img/reproduccion.png" alt="img"> Reproducir</button>
-                    <button type="button"> <img src="img/mas.png" alt="img"> Mi lista</button>
-                    <audio controls>
-                        <source src="mp3/Audio1.ogg" type="audio/mp3">
-                            Tu navegador no soporta audio HTML5.
-                    </audio>
-                    <audio controls>
-                        <source src="mp3/Audio2.ogg" type="audio/mp3">
+                    <audio controls id="btnReproducir">
+                        Reproducir
+                        <source src="mp3/audio.mp3" type="audio/mp3">
                             Tu navegador no soporta audio HTML5.
                     </audio>
                 </div>
@@ -35,23 +30,21 @@
         <section class="sliders">
             <h3>Mi lista</h3>           
             <div class="slider">
-                <img src="img/Amor.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(1)">
-                <img src="img/Amor2.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(2)">
-                <img src="img/Amor3.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(3)">
-                <img src="img/Amor4.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(4)">
-                <img src="img/Amor5.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(5)">
-                <img src="img/Amor6.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(6)">
+                <img src="img/Amor2.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(1)">
+                <img src="img/Amor3.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(2)">
+                <img src="img/Amor4.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(3)">
+                <img src="img/Amor5.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(4)">
+                <img src="img/Amor6.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(5)">
             </div>
         </section>
         <section class="sliders">
             <h3>Tendencias</h3>
             <div class="slider">
-                <img src="img/Amor7.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(7)">
-                <img src="img/Amor8.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(8)">
-                <img src="img/Amor9.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(9)">
-                <img src="img/Amor10.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(10)">
-                <img src="img/Amor11.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(11)">
-                <img src="img/Amor.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(12)">
+                <img src="img/Amor7.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(6)">
+                <img src="img/Amor8.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(7)">
+                <img src="img/Amor9.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(8)">
+                <img src="img/Amor10.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(9)">
+                <img src="img/Amor11.jpeg" alt="img" class="imgSlider" onclick="cambiarImg(10)">
             </div>
         </section>
         <section class="modal">
@@ -60,15 +53,15 @@
                 <div>
                     <span id="titleArt"></span>
                     <p id="textArt"></p>
-                    <button type="button" id="close-modal" onclick="cerrar()">Ver otra historia</button>
+                    <button type="button" id="close-modal" onclick="cerrar()">Ver otro recuerdo</button>
                 </div>
             </article>
         </section>
     </main>
     <footer>
-       <!--<span id="nombres">Fátima y Gabriel</span>-->
-        <span>2 de Febrero</span>
+       <span id="nombres">Yuli y Cesar</span>
+        <span>01 de Febrero</span>
     </footer>
-  <!-- <script src="script.js"></script>-->
+  <script src="script.js"></script>
 </body>
 </html>
